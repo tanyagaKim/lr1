@@ -1,4 +1,4 @@
-from repository import DatabaseRequests
+from src.repository import DatabaseRequests
 
 
 class Person:
