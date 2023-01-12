@@ -1,7 +1,6 @@
 import psycopg2
 
-DB_URL = 'postgres://program:test@localhost:5000/persons'
-
+DB_URL = 'postgresql://program:test@containers-us-west-169.railway.app:7613/persons'
 
 class DatabaseRequests:
     def __init__(self):
